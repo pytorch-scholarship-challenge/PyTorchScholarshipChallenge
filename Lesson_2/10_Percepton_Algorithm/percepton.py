@@ -92,7 +92,6 @@ if __name__ == '__main__':
 
     x = np.linspace(minX, maxX)
     for line in lines:
-        print(line)
         pyplot.plot(x, line[0]*x+line[1], '--', color='green')
 
     pyplot.plot(x, lines[len(lines)-1][0]*x+lines[len(lines)-1][1], color='black')
