@@ -81,3 +81,10 @@ sudo bash -c "export PATH=/home/ubuntu/.local/bin:$PATH && pip3 install torchvis
 sudo apt-get install libzmq3-dev
 sudo python3 -m pip install jupyter
 ```
+
+## Upgrade `matplotlib` to the recent version.
+
+```bash
+sudo apt-get install libfreetype6-dev
+sudo bash -c "export PATH=/home/ubuntu/.local/bin:$PATH && pip3 install -U matplotlib" 
+```
