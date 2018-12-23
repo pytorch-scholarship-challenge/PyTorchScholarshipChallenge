@@ -49,6 +49,7 @@ git submodule update --init
 ```bash
 pip3 install -U setuptools
 pip3 install -r requirements.txt
+pip3 install scipy
 ```
 
 ### 9. Build PyTorch.
